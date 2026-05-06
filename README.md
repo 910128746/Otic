@@ -7,6 +7,9 @@
 
 ---
 
+> [!NOTE]
+> 如果要將其使用到termux上，先嘗試加上`LD_PRELOAD=/system/lib64/libOpenSLES.so`於`pulseaudio --start`前，如果`pactl load-module module-sles-source`成功工作了那麼就不需要這一個分支作為代替方案
+
 OticLocal 是一款能讓安卓設備轉發自身麥克風輸入至本地環回網路的小工具
 
 OticLocal 並不負責接收音訊信號所以需要編寫自訂腳本來接收
