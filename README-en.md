@@ -8,7 +8,7 @@ Forked from [sakethpathike/Otic](https://github.com/sakethpathike/Otic)
 ---
 
 > [!NOTE]
-> If you're on Termux, try `LD_PRELOAD=/system/lib64/libOpenSLES.so pulseaudio --start` first. If opensles-source works, you don't need this fork at all.
+> If you're on Termux, try `LD_PRELOAD=/system/lib64/libOpenSLES.so pulseaudio --start` first. If `pactl load-module module-sles-source` works, you don't need this fork at all.
 
 OticLocal lets you stream your Android device's microphone input to the local loopback using
 `ServerSocket` and Foreground Service.
